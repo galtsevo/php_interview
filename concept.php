@@ -48,11 +48,4 @@ class Concept {
 
         $promise->wait();
     }
-
-    function setWay($way){
-        $this_way = $way;
-    }
 }
-
-$a = new Concept(;
-$a->getUserData($a->setWay(fromDB::class));
